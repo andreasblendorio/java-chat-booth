@@ -2,6 +2,14 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * Sets up:
+ * the Client object ,
+ * the 'SendMessage' method in charge of ,
+ * the 'listenForMessage' method in charge of ,
+ * the 'closeAll' method in charge of ,
+ * the 'main' method in charge of .
+ */
 public class Client {
 
     // Socket

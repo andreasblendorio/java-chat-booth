@@ -2,6 +2,13 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * Sets up:
+ * the 'startServer' method in charge of ,
+ * the 'closeServerSocket' method in charge of ,
+ * the 'main' method in charge of .
+ */
+
 // Server class
 public class Server {
 

@@ -2,6 +2,15 @@ import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
 
+/**
+ * Sets up:
+ * the ClientHandler object to manage the instances,
+ * the overrided 'run' method from the Runnable Interface in charge of setting the connection on 'keep alive' mode,
+ * the 'broadcastMessage' method in charge of sending a message to each client (in the array list) connected,
+ * the 'removeClientHandler' method in charge of terminating the connection when a client leaves the chat room,
+ * the 'closeAll' method in charge of killing the socket and the outbound/inbound streams.
+ */
+
 // NOTE: ClientHandler class has not a main method to be run, cause it will be run from the thread defined in line 36 of Server class (thread.start())
 
 public class ClientHandler implements Runnable {
